@@ -13,17 +13,17 @@
      .logo {
       display: block;
       margin: auto;
-      width: 30%; padding: 40px;
+      width: 30%; padding: 40px;padding-top:80px;
     }
-    
+   
       
   
     
    
 
       .headerText{text-align: center; width: 40%; margin: auto;font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;color: white;padding: 10px}
+        font-weight: 500;
+        font-style: normal;color: white;padding-top:80px;}
 
 .productContainer{
   display: flex;
@@ -55,8 +55,10 @@
       font-style: normal;}
     .SanFran{width:40%; padding: 20px;}
     
-    .ourCoffee{text-align: start; width: 40%; margin: auto;padding:20px;}
+    .ourCoffee{text-align: start;position:relative; width: 40%; margin: auto;padding:20px;}
       .beans{width:40%;}
+
+      .coffeeProductImage{width:40%;padding-top:30px;padding-bottom:30px;border-radius:5px;}
     
     p{font-family: "Lato", sans-serif;
       font-weight: 400;
@@ -97,6 +99,16 @@
         border-radius: 5px;font-family: "Lato", sans-serif;
       font-weight: 700;
       font-style: normal;}
+
+      .coffeeProductImage{margin: auto;width: 40%; border-radius: 5px;}
+
+      .coffee1Details{text-align: start; width: 40%; margin: auto;font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;padding:5px;}
+
+      .flavorDetails{text-align: start; width: 40%; margin: auto;font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;padding:5px;}
       
       .contact{padding: 40px;}
       
