@@ -55,7 +55,7 @@
 
       .headerText{text-align: center; width: 40%; margin: auto;font-family: "Poppins", sans-serif;
         font-weight: 500;
-        font-style: normal;color: white;padding-top:80px;padding: bottom 40px;}
+        font-style: normal;color: white;padding-top:80px;padding-bottom: 40px;}
 
 .productContainer{
   display: flex;
