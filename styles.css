@@ -1,0 +1,113 @@
+
+     @media screen and(max-width: 600px){.column{width:100%;}}
+
+     .logo {
+      display: block;
+      margin-left: 40%;
+      width: 18%; padding: 5px;
+    }
+    
+      
+    .navBar{padding:30px}
+    
+    .navButton{background-color:white;background-color: white;
+        color: black;
+        padding: 5px 40px;
+        border: 2px;border-style: solid;
+        border-color:#F2F2F2  ;
+        border-radius: 5px;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      }
+
+      .headerText{text-align: center; width: 40%; margin: auto;font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;color: white;padding: 10px}
+
+.productContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  margin: 35px;  
+  }
+  @media (max-width:600px){.productContainer{flex-direction: column;width:100%; margin:10px;}}
+  
+
+      .card-body{background-color: white; height: 480px; width: 300px; padding: 20px; margin-left:50px; margin-right: 50px;margin-top:25px;margin-bottom: 25px;border-radius: 5px;}
+      .center{display: block; margin-left: auto; margin-right: auto; width: 100%}
+      .card-title{color:black;font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;}
+      .card-text{color: black; font-family: "Lato", sans-serif;
+        font-weight: 100}
+      .center{ border-radius: 5px;}
+      .btn{align-self:flex-end;}
+      #AddtoCart{align-self:flex-end;}
+
+     
+      
+      
+      
+    .article{text-align: start; width: 40%; margin: auto;font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;}
+    .SanFran{width:40%; padding: 20px;}
+    
+    .ourCoffee{text-align: start; width: 40%; margin: auto;padding:20px;}
+      .beans{width:40%;}
+    
+    p{font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;color: white;
+    padding: 10px;}
+
+    @media (max-width:768px){p{font-size: 12px;}}
+    @media (max-width:756px){p{font-size: 10px;}}
+      
+      #container{position: relative;}
+      
+      #centered{position: absolute; top:25%; left: 50%; transform: translate(-50%, -50%); color: white;font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-style: bold;}
+
+      @media (max-width:768px){#centered{font-size: 12px;}}
+      @media (max-width:576px){#centered{font-size: 10px;}}
+      
+      #smallLogo{position: absolute; top:80%; left: 50.65%; transform: translate(-50%, -50%);width:5.5%}
+    
+    .HomeStatement{text-align: start; width: 60%; margin: auto;padding:20px;font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-style: bold;color:white;}
+
+      @media (max-width:768px){.HomeStatement{font-size: 12px;}}
+      @media (max-width:576px){.HomeStatement{font-size: 10px;}}
+
+    .statement{text-align: start; width: 40%; margin: auto;padding:20px;font-family: "Poppins", sans-serif;
+      }
+
+      #productsLink{color:#D98555 }
+      
+      .contactButton{background-color:white;background-color: white;padding: 20px;
+        color: black;
+        padding: 5px 40px;
+        border: 2px;border-style: solid;
+        border-color:#F2F2F2  ;
+        border-radius: 5px;font-family: "Lato", sans-serif;
+      font-weight: 700;
+      font-style: normal;}
+      
+      .contact{padding: 40px;}
+      
+      .socialLinks{font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    padding: 10px;}
+
+    .btn{color:#D98555;font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal; }
+    
+    
